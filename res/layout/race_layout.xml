@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<com.wissen.race.RaceView android:id="@+id/race"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		tileSize="24"
+		android:background="#8497B6" />
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<TextView android:id="@+id/text" android:text="@string/race_layout_text_text"
+			android:visibility="visible" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_centerInParent="true"
+			android:gravity="center_horizontal" android:textColor="#E129B7"
+			android:textSize="24sp" />
+	</RelativeLayout>
+</FrameLayout>
